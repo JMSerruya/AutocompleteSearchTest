@@ -60,6 +60,11 @@
     return YES;
 }
 
+-(void)textFieldDidBeginEditing:(UITextField *)textField
+{
+    [textField selectAll:self];
+}
+
 - (void)searchAutocompleteEntriesWithSubstring:(NSString *)substring {
     [[JMSAPIWrapper instance] requestSuggestionsForTerm:substring callback:^(BOOL success, NSData *response, NSError *error) {
         self.JSONData = (NSArray*)[(NSDictionary*)response objectForKey:@"results"];
