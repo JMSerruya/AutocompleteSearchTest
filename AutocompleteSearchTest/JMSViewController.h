@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JMSViewController : UIViewController
+@interface JMSViewController : UIViewController<UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource>
+@property (strong, nonatomic) IBOutlet UITextField *fromTextField;
+@property (strong, nonatomic) IBOutlet UITextField *toTextField;
+@property (nonatomic, retain) UITableView *autocompleteTableView;
+@property (nonatomic, retain) NSMutableArray *JSONData;
+
 
 @end

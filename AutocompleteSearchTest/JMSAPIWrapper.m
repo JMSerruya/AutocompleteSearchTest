@@ -43,6 +43,7 @@ static JMSAPIWrapper *apiInstance = nil;
 
     AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
     operation.responseSerializer = [AFJSONResponseSerializer serializer];
+    operation.securityPolicy.allowInvalidCertificates = YES;
 
     [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
         if (callback != nil) callback(TRUE,responseObject,nil);

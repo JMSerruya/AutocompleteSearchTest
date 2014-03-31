@@ -125,7 +125,7 @@ typedef NS_ENUM(NSUInteger, AFSSLPinningMode) {
  ## SSL Pinning Modes
 
  The following constants are provided by `AFSSLPinningMode` as possible SSL pinning modes.
-
+n
  enum {
  AFSSLPinningModeNone,
  AFSSLPinningModePublicKey,
