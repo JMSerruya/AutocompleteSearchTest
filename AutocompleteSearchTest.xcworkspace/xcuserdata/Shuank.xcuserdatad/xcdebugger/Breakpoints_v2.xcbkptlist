@@ -6,17 +6,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AutocompleteSearchTest/JMSViewController.m"
-            timestampString = "417950763.133351"
+            timestampString = "417951759.219809"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "-searchAutocompleteEntriesWithSubstring:"
             landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[JMSViewController searchAutocompleteEntriesWithSubstring:]"
+                  moduleName = "AutocompleteSearchTest"
+                  urlString = "file:///Users/Shuank/Dev/GoEuro/AutocompleteSearchTest/AutocompleteSearchTest/JMSViewController.m"
+                  timestampString = "417951977.199831"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__60-[JMSViewController searchAutocompleteEntriesWithSubstring:]_block_invoke"
+                  moduleName = "AutocompleteSearchTest"
+                  urlString = "file:///Users/Shuank/Dev/GoEuro/AutocompleteSearchTest/AutocompleteSearchTest/JMSViewController.m"
+                  timestampString = "417951977.200039"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "98">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -206,6 +236,22 @@
             startingLineNumber = "239"
             endingLineNumber = "239"
             landmarkName = "-evaluateServerTrust:forDomain:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AutocompleteSearchTest/JMSViewController.m"
+            timestampString = "417951759.219809"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "-searchAutocompleteEntriesWithSubstring:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

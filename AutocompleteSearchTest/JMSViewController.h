@@ -12,7 +12,7 @@
 @property (strong, nonatomic) IBOutlet UITextField *fromTextField;
 @property (strong, nonatomic) IBOutlet UITextField *toTextField;
 @property (nonatomic, retain) UITableView *autocompleteTableView;
-@property (nonatomic, retain) NSMutableArray *JSONData;
+@property (nonatomic, retain) NSArray *JSONData;
 
 
 @end

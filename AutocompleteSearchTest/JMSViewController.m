@@ -42,7 +42,7 @@
     NSString *substring = [NSString stringWithString:textField.text];
     substring = [substring
                  stringByReplacingCharactersInRange:range withString:string];
-    if ([substring length] > 3) {
+    if ([substring length] > 2) {
         [self searchAutocompleteEntriesWithSubstring:substring];
     }
     return YES;
@@ -50,7 +50,7 @@
 
 - (void)searchAutocompleteEntriesWithSubstring:(NSString *)substring {
     [[JMSAPIWrapper instance] requestSuggestionsForTerm:substring callback:^(BOOL success, NSData *response, NSError *error) {
-        NSLog(@"%@", response);
+        self.JSONData = (NSArray*)[(NSDictionary*)response objectForKey:@"results"];
     }];
     [self.autocompleteTableView reloadData];
 }
