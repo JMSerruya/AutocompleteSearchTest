@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AutocompleteSearchTest/JMSViewController.m"
-            timestampString = "417951759.219809"
+            timestampString = "417953014.236395"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
             landmarkName = "-searchAutocompleteEntriesWithSubstring:"
             landmarkType = "5">
             <Locations>
@@ -25,11 +25,11 @@
                   symbolName = "-[JMSViewController searchAutocompleteEntriesWithSubstring:]"
                   moduleName = "AutocompleteSearchTest"
                   urlString = "file:///Users/Shuank/Dev/GoEuro/AutocompleteSearchTest/AutocompleteSearchTest/JMSViewController.m"
-                  timestampString = "417951977.199831"
+                  timestampString = "417952324.900905"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "52"
-                  endingLineNumber = "52"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
                   offsetFromSymbolStart = "58">
                </Location>
                <Location
@@ -39,11 +39,11 @@
                   symbolName = "__60-[JMSViewController searchAutocompleteEntriesWithSubstring:]_block_invoke"
                   moduleName = "AutocompleteSearchTest"
                   urlString = "file:///Users/Shuank/Dev/GoEuro/AutocompleteSearchTest/AutocompleteSearchTest/JMSViewController.m"
-                  timestampString = "417951977.200039"
+                  timestampString = "417952324.9012"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "52"
-                  endingLineNumber = "52"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
                   offsetFromSymbolStart = "98">
                </Location>
             </Locations>
@@ -246,11 +246,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AutocompleteSearchTest/JMSViewController.m"
-            timestampString = "417951759.219809"
+            timestampString = "417953014.236395"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "-searchAutocompleteEntriesWithSubstring:"
             landmarkType = "5">
          </BreakpointContent>

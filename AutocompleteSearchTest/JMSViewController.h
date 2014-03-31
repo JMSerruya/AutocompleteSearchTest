@@ -13,6 +13,7 @@
 @property (strong, nonatomic) IBOutlet UITextField *toTextField;
 @property (nonatomic, retain) UITableView *autocompleteTableView;
 @property (nonatomic, retain) NSArray *JSONData;
+@property BOOL isSearchingFrom;
 
 
 @end
