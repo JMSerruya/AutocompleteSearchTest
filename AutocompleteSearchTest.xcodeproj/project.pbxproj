@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66505B0518E95CD200698528 /* JMSAPIWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 66505B0418E95CD200698528 /* JMSAPIWrapper.m */; };
 		66A7B78418E95B6B00EBCE07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A7B78318E95B6B00EBCE07 /* Foundation.framework */; };
 		66A7B78618E95B6B00EBCE07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A7B78518E95B6B00EBCE07 /* CoreGraphics.framework */; };
 		66A7B78818E95B6B00EBCE07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A7B78718E95B6B00EBCE07 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66505B0318E95CD200698528 /* JMSAPIWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSAPIWrapper.h; sourceTree = "<group>"; };
+		66505B0418E95CD200698528 /* JMSAPIWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMSAPIWrapper.m; sourceTree = "<group>"; };
 		66A7B78018E95B6B00EBCE07 /* AutocompleteSearchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutocompleteSearchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A7B78318E95B6B00EBCE07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66A7B78518E95B6B00EBCE07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66505B0218E95CC200698528 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				66505B0318E95CD200698528 /* JMSAPIWrapper.h */,
+				66505B0418E95CD200698528 /* JMSAPIWrapper.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
 		66A7B77718E95B6B00EBCE07 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +124,7 @@
 		66A7B78918E95B6B00EBCE07 /* AutocompleteSearchTest */ = {
 			isa = PBXGroup;
 			children = (
+				66505B0218E95CC200698528 /* API */,
 				66A7B79218E95B6B00EBCE07 /* JMSAppDelegate.h */,
 				66A7B79318E95B6B00EBCE07 /* JMSAppDelegate.m */,
 				66A7B79518E95B6B00EBCE07 /* Main.storyboard */,
@@ -253,6 +266,7 @@
 				66A7B79A18E95B6B00EBCE07 /* JMSViewController.m in Sources */,
 				66A7B79018E95B6B00EBCE07 /* main.m in Sources */,
 				66A7B79418E95B6B00EBCE07 /* JMSAppDelegate.m in Sources */,
+				66505B0518E95CD200698528 /* JMSAPIWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +475,7 @@
 				66A7B7B418E95B6B00EBCE07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66A7B7B518E95B6B00EBCE07 /* Build configuration list for PBXNativeTarget "AutocompleteSearchTestTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +484,7 @@
 				66A7B7B718E95B6B00EBCE07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
