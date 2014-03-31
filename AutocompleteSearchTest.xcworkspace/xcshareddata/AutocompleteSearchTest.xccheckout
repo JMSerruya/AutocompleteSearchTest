@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8832FF76-A5FE-4D68-B367-2CAE5B3DEFCA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AutocompleteSearchTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B81BB1D8-3F94-4113-9CAD-8B1546514EDA</key>
+		<string>ssh://github.com/JMSerruya/AutocompleteSearchTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AutocompleteSearchTest.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B81BB1D8-3F94-4113-9CAD-8B1546514EDA</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/JMSerruya/AutocompleteSearchTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B81BB1D8-3F94-4113-9CAD-8B1546514EDA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B81BB1D8-3F94-4113-9CAD-8B1546514EDA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AutocompleteSearchTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>

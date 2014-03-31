@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AFURLRequestSerialization.h"
 
 @interface JMSAPIWrapper : NSObject
+
+typedef void(^CompletionBlock)(BOOL success, NSData * response, NSError * error );
++(id)instance;
+@property (nonatomic,strong) AFHTTPRequestSerializer * requestSerializer;
+- (void)requestSuggestionsForTerm:(NSString *)term callback:(CompletionBlock)callback;
+
 
 @end
